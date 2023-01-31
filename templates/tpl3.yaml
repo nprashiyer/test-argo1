@@ -5,13 +5,13 @@ metadata:
 spec:
   arguments:
     parameters:
-      - name: message
-        value: hello world
+      - name: james
+        value: hello wilson
   templates:
-    - name: whalesay-template
+    - name: whalesay-moo
       inputs:
         parameters:
-          - name: message
+          - name: cops
       container:
         image: docker/whalesay
         command: [cowsay]
